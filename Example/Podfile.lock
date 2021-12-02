@@ -1,0 +1,33 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GKit (0.0.20):
+    - Masonry
+  - GKitModel (0.0.8):
+    - FMDB
+    - GKit (~> 0.0.17)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - GKitModel (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - GKit
+    - Masonry
+
+EXTERNAL SOURCES:
+  GKitModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GKit: 94d1fdafc1439241630a8f10a74aabe2edc8f157
+  GKitModel: d3801fc27a0324d762b6be79da520bafeff1cca9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: fe5c97ae60d4bc67f3c378246fc6f6b9d38f4226
+
+COCOAPODS: 1.11.2

@@ -7,7 +7,5 @@ target 'GKitModel_Example' do
 
   target 'GKitModel_Tests' do
     inherit! :search_paths
-
-    
   end
 end
